@@ -1,0 +1,12 @@
+server:
+  port: 8082
+dubbo:
+  application:
+    name:  bank-consumer
+    id:  bank-consumer
+  protocol:
+    name:  dubbo
+    port:  20801
+    id:  dubbo
+  registry:
+    address: zookeeper://127.0.0.1:2181
